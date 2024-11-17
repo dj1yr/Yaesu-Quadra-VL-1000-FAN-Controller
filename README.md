@@ -16,7 +16,6 @@ Unfortunately, the original fans, which are actually very good, cannot be thrott
 I have replaced my fans with Noctua NF-A12-25 in black and the FAN C with Noctua NF-A8 PWM chromax.black.swap,
 these have a good static pressure with low noise and can be regulated very well (I like to use them in other PA projects).
 
-
 The controller controls the fans, the lower limit temperature is 20°C, from this point the fans switch off, when PTT is on, both fans are controlled with 10% FAN C or 20% FAN A+B, when the temperature rises the fans turn faster, at approx. 40°C the fans run at maximum.
 There is also a switching output that can be connected in parallel to “PA-ALM” (J1009/J1010), which would set the PA to overtemperature protect mode if limit values/heat sensors are exceeded.
 A query of the fan speed has been prepared, but is not yet evaluated.
@@ -26,12 +25,7 @@ I made two fan frames for my PA (3d pressure at JLPCB), which reduced the proble
 
 So far everything is working fine, the PA doesn't get any warmer than before (checked with IR camera) and is now finally quiet when it is only in standby or used without a test.
 
-I provide everything for people who are interested.
-
 The project was originally created in Eagle, then converted to KICAD, the software is written in the Arduino IDE, the fan frame in Inventor.
-
-
-I would link pictures etc. to a Github to save space here.
 
 
 73´ René
