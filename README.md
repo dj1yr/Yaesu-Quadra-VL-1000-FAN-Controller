@@ -1,1 +1,1 @@
-# YAesu-Quadra-VL-1000-FAN-Controller
+# Yaesu-Quadra-VL-1000-FAN-Controller
