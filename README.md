@@ -17,6 +17,7 @@ I have replaced my fans with Noctua NF-A12-25 in black and the FAN C with Noctua
 these have a good static pressure with low noise and can be regulated very well (I like to use them in other PA projects).
 
 The controller controls the fans, the lower limit temperature is 20°C, from this point the fans switch off, when PTT is on, both fans are controlled with 10% FAN C or 20% FAN A+B, when the temperature rises the fans turn faster, at approx. 40°C the fans run at maximum.
+FAN C is PTT dependent, fans A+B run independently.
 There is also a switching output that can be connected in parallel to “PA-ALM” (J1009/J1010), which would set the PA to overtemperature protect mode if limit values/heat sensors are exceeded.
 A query of the fan speed has been prepared, but is not yet evaluated.
 
