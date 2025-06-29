@@ -24,7 +24,7 @@ A query of the fan speed has been prepared, but is not yet evaluated.
 The QRL gives me the opportunity to take flow measurements, and I noticed that the two rear fans influence each other, that they can “see” each other, i.e. the air flow is partially canceled out and the efficiency drops by 20% in some cases.
 I made two fan frames for my PA (3d printed at JLPCB), which reduced the problem to <2% influence.
 
-So far everything is working fine, the PA doesn't get any warmer than before (checked with IR camera) and is now finally quiet when it is only in standby or used without a test.
+So far everything is working fine, the PA doesn't get any warmer than before (checked with IR camera) and is now finally quiet.
 
 The project was originally created in Eagle, then converted to KICAD, the software is written in the Arduino IDE, the fan frame in Inventor.
 
